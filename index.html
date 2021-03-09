@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-------------------------------navbar_start------------------------------------>
+<header id="header">
+    <nav>
+        <a href="index.html">
+            <img src="image/logo/logo_text_white.png" class="logo">
+        </a>
+
+        <div class="threeLines" id="threeLines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <div class="navbar" id="navbar">
+            <a href="#" class="writeToUs">Напишите нам</a>
+            <div class="dropped">
+                <a href="#" class="navLink" id="dropped1">Проекты
+                    <div class="triangle"></div>
+                </a>
+                <div class="droppedList" id="droppedList1">
+                    <a href="#">Разработка AR/VR решений</a>
+                    <a href="#">Виртуальные тренинги</a>
+                </div>
+            </div>
+
+            <div class="dropped">
+                <a href="#" class="navLink" id="dropped2">RUS
+                    <div class="triangle"></div>
+                </a>
+                <div class="droppedList" id="droppedList2">
+                    <a href="#">ENG</a>
+                    <a href="#">KAZ</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-------------------------------navbar_end------------------------------------>
+
+<!-------------------------------slider_start---------------------------------->
+<div class="slider">
+    <div class="slider__wrapper">
+        <div class="slider__items">
+            <div class="slider__item slider__item_1">
+                <img class="img-fluid" src="image/slider/slider_001.jpg" alt="c1">
+                <div class="slider__item_inner">
+                     <span class="slider__item_title">
+                        УТП - “Повышаем корпоративную эффективность с помощью внедрения AR/VR технологий”
+                     </span>
+                </div>
+            </div>
+            <div class="slider__item slider__item_2">
+                <img class="img-fluid" src="image/slider/slider_002.jpg" alt="c2">
+                <div class="slider__item_inner">
+                    <span class="slider__item_title">
+                        Применяйте технологии будущего уже сегодня
+                    </span>
+                </div>
+            </div>
+            <div class="slider__item slider__item_3">
+                <img class="img-fluid" src="image/slider/slider_004.jpg" alt="c3">
+                <div class="slider__item_inner">
+                    <span class="slider__item_title">
+                        Хотите стать лидером отрасли?
+                    </span>
+                    <span class="slider__items_description">
+                        Внедряйте технологии AR/VR  в производство
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_prev" href="#" role="button"></a>
+    <a class="slider__control slider__control_next" href="#" role="button"></a>
+</div>
+
+<!-------------------------------slider_end------------------------------------>
+
+<main>
+    <section class="algorithms">
+        <h1 class="MainText">Алгоритм нашей работы</h1>
+        <div>
+            <div class="algorithmsContent">
+                <div class="algorithmsBlocks first_algorithms" data-aos="fade-right">
+                    <p>Проведем анализ Ваших пожеланий</p>
+                    <img src="image/icons/fi-sr-list-check.svg" class="algorithmsImage">
+                </div>
+
+                <div class="algorithmsBlocks second_algorithms" data-aos="fade-right" data-aos-delay="100">
+                    <p>Подберем технологии и оптимальные гаджеты AR/VR и бизнес-модель</p>
+                    <img src="image/icons/fi-rr-browser.svg" class="algorithmsImage">
+                </div>
+
+                <div class="algorithmsBlocks third_algorithms" data-aos="fade-right" data-aos-delay="200">
+                    <p>Подготовим коммерческое предложение</p>
+                    <img src="image/icons/fi-rr-diamond.svg" class="algorithmsImage">
+                </div>
+            </div>
+
+            <div class="algorithmsContent">
+                <div class="algorithmsBlocks fourth_algorithms" data-aos="fade-right" data-aos-delay="300">
+                    <p>Разработаем UI/UX дизайн</p>
+                    <img src="image/icons/fi-rr-apps-add.svg" class="algorithmsImage">
+                </div>
+
+                <div class="algorithmsBlocks fifth_algorithms" data-aos="fade-right" data-aos-delay="400">
+                    <p>Внедрим решение на предприятии заказчика</p>
+                    <img src="image/icons/fi-rr-bank.svg" class="algorithmsImage">
+                </div>
+
+                <div class="algorithmsBlocks sixth_algorithms" data-aos="fade-right" data-aos-delay="500">
+                    <p>Организуем гарантийную и техническую поддержку</p>
+                    <img src="image/icons/fi-rr-bulb.svg" class="algorithmsImage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ArVrInformation" id="ArVrInformation">
+        <h1 class="MainText">Сферы применения технологии AR/VR</h1>
+        <div class="ArVrContent">
+            <div class="ArVrList">
+                <ul>
+                    <li data-aos="fade-right">Промышленность</li>
+                    <li data-aos="fade-right">Образование</li>
+                    <li data-aos="fade-right">Туризм</li>
+                    <li data-aos="fade-right">Маркетинг и реклама</li>
+                    <li data-aos="fade-right">Военная промышленность</li>
+                    <li data-aos="fade-right">Финансовый сектор</li>
+                </ul>
+            </div>
+            <div id="canvas" data-aos="fade-zoom-in"></div>
+        </div>
+    </section>
+
+    <section class="cases">
+        <h1 class="MainText">Успешные кейсы</h1>
+        <div class="casesList">
+            <div class="casesLeft" data-aos="flip-right" data-aos-duration="1500">ForumVR - виртуальные выставки и
+                конференции
+            </div>
+            <div class="casesRight" data-aos="flip-left" data-aos-duration="1500">ASAR - мобильный туристический
+                путеводитель
+            </div>
+            <div class="casesLeft" data-aos="flip-right" data-aos-duration="1500">VR тренинги</div>
+            <div class="casesRight" data-aos="flip-left" data-aos-duration="1500">Виртуальные экскурсии и 3D туры</div>
+            <div class="casesLeft" data-aos="flip-right" data-aos-duration="1500">OAR - имитационная модель карьера
+                открытой добычи
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutUs">
+        <div class="MainTextAboutUs" data-aos="fade-right">
+            <h1 class="MainText">10 фактов</h1>
+            <h1 class="tinyMainText">О компании</h1>
+        </div>
+        <div class="aboutUsList">
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">01</div>
+                <div class="factText">7 авторских свидетельств на программные продукты</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">02</div>
+                <div class="factText">Официальный бизнес-партнер корпорации Facebook (Oculus)</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">03</div>
+                <div class="factText">Официальный бизнес партнер корпорации Microsoft (HoloLens)</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">04</div>
+                <div class="factText">Успешно выполнено 12 проектов</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">05</div>
+                <div class="factText">Участники Astana Hub</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">06</div>
+                <div class="factText">Отечественный поставщик</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">07</div>
+                <div class="factText">Сертифицированные разработчики</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">08</div>
+                <div class="factText">Gold supplier на площадке Alibaba</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">09</div>
+                <div class="factText">Победитель конкурса фонда USAID (CTJ)</div>
+            </div>
+            <div class="fact" data-aos="fade-down">
+                <div class="factNumber">10</div>
+                <div class="factText">Победитель конкурса Евразийского банка развития</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <h1 class="MainText">Наши заказчики</h1>
+        <div class="partnersList">
+            <img class="partner" src="image/partners/tengizchevroil.svg">
+            <img class="partner" src="image/partners/erg.svg">
+            <img class="partner" src="image/partners/KazMunayGas_logo.svg">
+            <img class="partner" src="image/partners/qazaqGeography.png">
+        </div>
+    </section>
+
+    <section class="myths">
+        <div class="mythList">
+            <div class="myth" data-aos="fade-down">
+                <div class="mythText">AR/VR технологии это очень дорого. Мы не только поможем подобрать оптимальное
+                    оборудование, но и предложим выгодные условия рассрочки на 1-3 года.
+                </div>
+                <div class="mythNumber">1</div>
+            </div>
+            <div class="myth" data-aos="fade-down">
+                <div class="mythText paddingRightZero">Пока еще слишком рано внедрять решения AR/VR. Перечень работающих
+                    проектов в РК, прогнозы, исследования.
+                </div>
+                <div class="mythNumber">2</div>
+            </div>
+            <div class="myth" data-aos="fade-down">
+                <div class="mythText paddingRightZero">Наши сотрудники не смогут пользоваться VR шлемами. Интуитивный
+                    интерфейс, позволяет разобраться с управлением в течение 2-х минут.
+                </div>
+                <div class="mythNumber">3</div>
+            </div>
+            <div class="myth" data-aos="fade-down">
+                <div class="mythText paddingRightZero">Работники предприятия поломают VR очки. Мы обеспечиваем
+                    гарантийную и техническую поддержку, включая присутствие нашего специалиста на территории
+                    предприятия заказчика.
+                </div>
+                <div class="mythNumber">4</div>
+            </div>
+            <div class="myth" data-aos="fade-down">
+                <div class="mythText paddingRightZero">Сроки разработки AR/VR решений занимают целый год. Разработка
+                    одного модуля VR инструктажа составили 1,5 месяца, разработка кастомизированного решения для
+                    Microsoft HoloLens с учетом требований заказчика составило 2,5 месяца.
+                </div>
+                <div class="mythNumber">5</div>
+            </div>
+        </div>
+
+        <div class="MainTextMyth" data-aos="fade-down">
+            <h1 class="boldMainText">Развеиваем мифы</h1>
+            <h1 class="tinyMainText">О VR/AR</h1>
+        </div>
+    </section>
+</main>
+
+<!------------------------------main_end-------------------------->
+
+<!------------------------------footer_start-------------------------->
+<footer>
+    <div class="footerSection">
+        <p class="MainTextFooter">О компании</p>
+        <div class="footerList">
+            <a href="#" class="footerLink">Пользовательское соглашение</a>
+            <a href="#" class="footerLink">Обработки персональных данных</a>
+            <a href="#" class="footerLink">Блог компании</a>
+            <a href="#" class="footerLink">Скачать презентацию о компании</a>
+        </div>
+    </div>
+
+    <div class="footerSection">
+        <p class="MainTextFooter">Проекты</p>
+        <div class="footerList">
+            <a href="#" class="footerLink">Разработка AR/VR решений</a>
+            <a href="#" class="footerLink">Виртуальные тренинги</a>
+        </div>
+    </div>
+</footer>
+<!------------------------------footer_end-------------------------->
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="3d/js/three.min.js"></script>
+<script src="3d/js/OBJLoader.js"></script>
+<script src="3d/js/OrbitControls.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
