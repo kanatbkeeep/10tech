@@ -325,6 +325,7 @@ nav {
     transform: translate(0, -50%);
 }
 
+
 /*--------------------------slider_end--------------------------------*/
 
 
@@ -392,16 +393,18 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    width: 1140px;
 }
 
-.ArVrList {
-    margin-right: 200px;
-}
-
-.ArVrList ul li {
+.ArVrList p {
     padding: 5px 0;
     font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.ArVrList p img {
+    margin-right: 10px;
 }
 
 #canvas {
@@ -668,11 +671,7 @@ footer {
     }
 
     .ArVrContent {
-        margin: 0 70px;
-    }
-
-    .ArVrList {
-        margin-right: 100px;
+        width: 930px;
     }
 
     .casesList {
@@ -719,8 +718,8 @@ footer {
         width: 200px;
     }
 
-    .ArVrList {
-        margin-right: 50px;
+    .ArVrContent {
+        width: 850px;
     }
 
     .casesList {
@@ -862,7 +861,7 @@ footer {
     }
 
     .ArVrList {
-        margin-right: 0;
+        margin: 0 0 20px 0;
     }
 
     #canvas {
