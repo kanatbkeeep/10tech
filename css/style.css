@@ -896,6 +896,11 @@ footer {
         margin: 5px;
     }
 
+    .mythText {
+        overflow-wrap: anywhere;
+        font-size: 20px;
+    }
+
     footer {
         padding: 70px 30px;
         width: calc(100% - 60px);
@@ -927,6 +932,10 @@ footer {
 
     main {
         top: 260px;
+    }
+
+    .partner {
+        height: 70px;
     }
 
     footer {
