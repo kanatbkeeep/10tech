@@ -636,10 +636,17 @@ footer {
     margin: 5px 0;
     color: white;
     font-weight: 100;
+    display: flex;
+    align-items: center;
 }
 
 .footerLink:hover {
     text-decoration: underline;
+}
+
+.footerLink img {
+    width: 20px;
+    margin-right: 5px;
 }
 
 /*-----------------------------footer_end-------------------------------*/
