@@ -25,14 +25,6 @@ section {
     justify-content: space-between;
 }
 
-.statisticsList div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 400px;
-    padding: 0 25px;
-}
-
 .statisticsList img {
     border-radius: 50%;
     padding: 10px;
@@ -51,6 +43,11 @@ section {
 
 .statistic {
     position: relative;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
 }
 
 .statistic:before {
@@ -139,3 +136,99 @@ section {
     bottom: 0;
     left: -55px;
 }
+
+.algorithmsContent {
+    justify-content: center;
+}
+
+@media (max-device-width: 1400px) {
+    .statisticsMain {
+        width: 1140px;
+    }
+
+    .advantagesMain {
+        width: 1140px;
+    }
+
+    .statistic {
+        padding: 0 15px;
+        max-width: 300px;
+    }
+}
+
+@media (max-device-width: 1200px) {
+    .statisticsMain {
+        width: 960px;
+    }
+
+    .advantagesMain {
+        width: 960px;
+    }
+
+    .statistic {
+        padding: 0 10px;
+        max-width: 250px;
+    }
+
+    .statistic img {
+        width: 70px;
+    }
+
+    .statistic:before {
+        top: 45px;
+    }
+
+    .statistic:after {
+        top: 45px;
+    }
+
+    .advantage p {
+        overflow-wrap: anywhere;
+    }
+}
+
+@media (max-device-width: 992px) {
+    .statisticsMain {
+        width: 720px;
+    }
+
+    .advantagesMain {
+        width: 720px;
+    }
+
+    .statistic {
+        max-width: 200px;
+    }
+}
+
+@media (max-device-width: 768px) {
+    .statisticsMain {
+        width: 100%;
+    }
+
+    .advantagesMain {
+        width: 100%;
+    }
+
+    .statistic {
+        max-width: unset;
+        margin: 30px 10px;
+    }
+
+    .statistic p {
+        font-size: 25px;
+    }
+
+    .statisticsList {
+        flex-direction: column;
+    }
+
+    .statistic:before {
+        content: none;
+    }
+
+    .statistic:after {
+        content: none;
+    }
+}
+
