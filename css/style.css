@@ -447,6 +447,7 @@ main {
 
 .casesList img {
     width: 30px;
+    margin: 0 5px;
 }
 
 .casesLeft {
