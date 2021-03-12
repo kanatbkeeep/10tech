@@ -930,6 +930,10 @@ footer {
         top: 360px;
         flex-direction: column;
     }
+
+    .MainTextFooter {
+        margin-top: 40px;
+    }
 }
 
 @media (max-device-width: 450px) {
@@ -954,9 +958,5 @@ footer {
         width: calc(100% - 20px);
         top: 260px;
         flex-direction: column;
-    }
-
-    .footerSection {
-        margin-bottom: 70px;
     }
 }
