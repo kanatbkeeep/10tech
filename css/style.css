@@ -523,7 +523,7 @@ main {
 
 /*---------------------------------*/
 
-.partners {
+.partnersMain {
     padding: 70px 0;
     background-color: #f5f5f5;
     display: flex;
@@ -544,7 +544,7 @@ main {
 
 /*---------------------------------*/
 
-.myths {
+.mythsMain {
     padding: 70px 170px 70px 0;
     background-color: white;
     display: flex;
@@ -655,7 +655,7 @@ footer {
         padding: 70px 0 70px 100px;
     }
 
-    .myths {
+    .mythsMain {
         padding: 70px 100px 70px 0;
     }
 }
@@ -753,7 +753,7 @@ footer {
         margin: 25px;
     }
 
-    .myths {
+    .mythsMain {
         flex-direction: column-reverse;
         padding: 70px 0 70px 0;
         align-items: unset;

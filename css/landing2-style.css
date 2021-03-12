@@ -5,18 +5,19 @@ section {
 
 .white {
     background-color: white;
+    padding: 70px 0;
 }
 
 .gray {
     background-color: #f5f5f5;
+    padding: 70px 0;
 }
 
-.statistics {
+.statisticsMain {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px 0;
-    width: 1440px;
+    width: 1320px;
 }
 
 .statisticsList {
@@ -78,4 +79,63 @@ section {
 
 .statistic:last-child:after {
     content: none;
+}
+
+.advantagesMain {
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantagesList {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.advantage p {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.advantage img {
+    border-radius: 50%;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: white;
+    z-index: 99;
+    position: relative;
+}
+
+.rightAdvantage {
+    left: 110px;
+}
+
+.leftAdvantage:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(60deg);
+    bottom: 0;
+    left: 55px;
+}
+
+.rightAdvantagesContent:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(120deg);
+    bottom: 0;
+    left: -55px;
 }
