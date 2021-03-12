@@ -26,6 +26,8 @@ header {
     z-index: 999;
     transition: all 0.3s;
     height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 nav {
@@ -33,6 +35,16 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.white {
+    background-color: white;
+    padding: 70px 0;
+}
+
+.gray {
+    background-color: #f5f5f5;
+    padding: 70px 0;
 }
 
 .navbar {

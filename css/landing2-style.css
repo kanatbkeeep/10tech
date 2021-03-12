@@ -3,16 +3,6 @@ section {
     justify-content: center;
 }
 
-.white {
-    background-color: white;
-    padding: 70px 0;
-}
-
-.gray {
-    background-color: #f5f5f5;
-    padding: 70px 0;
-}
-
 .statisticsMain {
     display: flex;
     flex-direction: column;
