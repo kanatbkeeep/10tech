@@ -294,6 +294,14 @@ function init() {
     renderer.domElement.setAttribute("id", "canvas");
     document.getElementById("canvas").insertBefore(renderer.domElement, canvas.firstChild);
 
+    window.addEventListener('resize', function () {
+        let width = document.getElementById('canvas').offsetWidth;
+        let height = document.getElementById('canvas').offsetHeight;
+        renderer.setSize(width, height);
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+    })
+
     const aLight = new THREE.AmbientLight(0x404040, 1.2);
     scene.add(aLight);
 
