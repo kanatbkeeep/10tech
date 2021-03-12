@@ -141,6 +141,10 @@ section {
     justify-content: center;
 }
 
+.MainText {
+    text-align: center;
+}
+
 @media (max-device-width: 1400px) {
     .statisticsMain {
         width: 1140px;
@@ -153,6 +157,10 @@ section {
     .statistic {
         padding: 0 15px;
         max-width: 300px;
+    }
+
+    .rightAdvantage {
+        width: calc(1140px - 110px);
     }
 }
 
@@ -182,8 +190,8 @@ section {
         top: 45px;
     }
 
-    .advantage p {
-        overflow-wrap: anywhere;
+    .rightAdvantage {
+        width: calc(960px - 110px);
     }
 }
 
@@ -198,6 +206,18 @@ section {
 
     .statistic {
         max-width: 200px;
+    }
+
+    .rightAdvantage {
+        width: calc(720px - 110px);
+    }
+
+    .leftAdvantage:before {
+        width: 150px;
+    }
+
+    .rightAdvantagesContent:before {
+        width: 150px;
     }
 }
 
@@ -229,6 +249,51 @@ section {
 
     .statistic:after {
         content: none;
+    }
+
+    .advantage {
+        margin: 0 10px;
+    }
+
+    .rightAdvantage {
+        left: 0;
+    }
+
+    .leftAdvantage:before {
+        transform: rotate(90deg);
+        left: -15px;
+    }
+
+    .rightAdvantagesContent:before {
+        transform: rotate(90deg);
+        left: -15px;
+    }
+
+    .rightAdvantage {
+        width: unset;
+    }
+}
+
+@media (max-device-width: 430px) {
+    html {
+        overflow-wrap: anywhere;
+    }
+
+    .leftAdvantage:before {
+        content: none;
+    }
+
+    .rightAdvantagesContent:before {
+        content: none;
+    }
+
+    .advantage {
+        flex-direction: column;
+    }
+
+    .advantage p {
+        margin: 10px 0;
+        text-align: center;
     }
 }
 

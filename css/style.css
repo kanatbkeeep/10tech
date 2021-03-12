@@ -928,10 +928,15 @@ footer {
         padding: 70px 10px;
         width: calc(100% - 20px);
         top: 360px;
+        flex-direction: column;
     }
 }
 
 @media (max-device-width: 450px) {
+    html {
+        overflow-wrap: anywhere;
+    }
+
     .slider__item {
         height: 200px;
     }
