@@ -445,22 +445,20 @@ main {
     font-size: 20px;
 }
 
-.casesLeft {
-    margin-right: auto;
+.casesList img {
+    width: 30px;
 }
 
-.casesLeft:before {
-    content: '●';
-    margin-right: 10px;
+.casesLeft {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
 }
 
 .casesRight {
     margin-left: auto;
-}
-
-.casesRight:after {
-    content: '●';
-    margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 /*---------------------------------*/
