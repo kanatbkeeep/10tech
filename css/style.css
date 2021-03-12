@@ -23,7 +23,7 @@ header {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 0 calc((100% - 1140px) / 2);
-    z-index: 70;
+    z-index: 999;
     transition: all 0.3s;
     height: 60px;
 }
