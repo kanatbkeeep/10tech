@@ -82,7 +82,7 @@ nav {
 }
 
 .writeToUs:hover {
-    background-color: #e3e2e2;
+    transform: scale(1.05);
 }
 
 .dropped {
@@ -147,7 +147,7 @@ nav {
     padding: 10px 15px;
     white-space: nowrap;
     font-family: 'Roboto', sans-serif;
-    transition: all 0.4s;
+    transition: background-color 0.4s;
 }
 
 .droppedList a:hover {
@@ -294,19 +294,19 @@ nav {
 }
 
 .slider__item_1 {
-    background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .slider__item_2 {
-    background: linear-gradient(to right, #dd1818, #333333);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .slider__item_3 {
-    background: linear-gradient(to right, #093028, #237a57);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .slider__item_4 {
-    background: linear-gradient(to right, #243B55, #141E30);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 .slider__item_inner {

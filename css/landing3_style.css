@@ -8,15 +8,197 @@ section {
     display: flex;
     width: 1320px;
     justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
 }
 
 .whatIsQuestion h1 {
     text-decoration: underline;
-    align-self: flex-end;
 }
 
 .whatIsQuestion p {
     width: 60%;
     font-size: 25px;
     text-align: right;
+}
+
+.howIsItWork {
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dutyList {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    overflow-wrap: anywhere;
+}
+
+th, td:first-child {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+
+td {
+    background: #f5f5f5;
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+.eventsMain {
+    display: flex;
+    width: 1320px;
+    flex-direction: column;
+}
+
+.eventsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventsBlock {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin: 50px 0;
+}
+
+.event {
+    position: relative;
+    width: 350px;
+    text-align: center;
+    background-color: #fcfcfc;
+    padding: 60px 0 45px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.3);
+}
+
+.event img {
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -60px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #fcfcfc;
+    box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.4);
+}
+
+@media (max-device-width: 1400px) {
+    .whatIsQuestion {
+        width: 1140px;
+    }
+
+    .howIsItWork {
+        width: 1140px;
+    }
+
+    .eventsMain {
+        width: 1140px;
+    }
+
+    .event {
+        width: 250px;
+    }
+}
+
+@media (max-device-width: 1200px) {
+    .whatIsQuestion {
+        width: 960px;
+    }
+
+    .howIsItWork {
+        width: 960px;
+    }
+
+    .eventsMain {
+        width: 960px;
+    }
+
+    .eventsBlock {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .event {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .whatIsQuestion h1 {
+        width: 40%;
+    }
+}
+
+@media (max-device-width: 992px) {
+    .whatIsQuestion {
+        width: 720px;
+    }
+
+    .howIsItWork {
+        width: 720px;
+    }
+
+    .eventsMain {
+        width: 720px;
+    }
+
+}
+
+@media (max-device-width: 768px) {
+    .whatIsQuestion {
+        width: calc(100% - 20px);
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .howIsItWork {
+        width: 100%;
+    }
+
+    .eventsMain {
+        width: calc(100% - 40px);
+        padding: 20px;
+    }
+
+    .whatIsQuestion h1 {
+        width: unset;
+        text-align: center;
+    }
+
+    .whatIsQuestion p {
+        width: unset;
+        text-align: center;
+    }
+
+    .leftAdvantage:before {
+        content: none;
+    }
+
+    .rightAdvantagesContent:before {
+        content: none;
+    }
+}
+
+@media (max-device-width: 430px) {
+
 }
