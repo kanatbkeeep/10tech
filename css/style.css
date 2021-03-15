@@ -927,7 +927,7 @@ footer {
 
 }
 
-@media (max-device-width: 600px) {
+@media (max-device-width: 620px) {
     .slider__item {
         height: 300px;
     }
