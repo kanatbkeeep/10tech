@@ -6,10 +6,42 @@
     font-size: 20px;
 }
 
+.leftCircle:before {
+    width: 200px;
+}
+
+.rightCircleContent:before {
+    width: 200px;
+}
+
 @media (max-device-width: 1350px) {
 
     .mythsMain {
         padding: 70px 100px 70px 0;
+    }
+}
+
+@media (max-device-width: 1200px) {
+    .leftCircle:before {
+        width: 250px;
+        left: 15px;
+    }
+
+    .rightCircleContent:before {
+        width: 250px;
+        left: -85px;
+    }
+}
+
+@media (max-device-width: 992px) {
+    .leftCircle:before {
+        width: 280px;
+        left: -10px;
+    }
+
+    .rightCircleContent:before {
+        width: 300px;
+        left: -130px;
     }
 }
 
@@ -38,5 +70,11 @@
     .mythText {
         overflow-wrap: anywhere;
         font-size: 20px;
+    }
+}
+
+@media (max-device-width: 768px) {
+    .circleInfo p {
+        margin-left: 30px;
     }
 }

@@ -1,7 +1,7 @@
 $('#threeLines').click(function () {
     if (document.getElementById('navbar').style.top === "50px") {
         $('#navbar').css({
-            'top': '-450px',
+            'top': '-550px',
         });
 
         $('#header').css({

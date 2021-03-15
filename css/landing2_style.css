@@ -68,31 +68,31 @@ section {
     content: none;
 }
 
-.advantagesMain {
+.circleMain {
     width: 1320px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.advantagesList {
+.circleList {
     display: flex;
     flex-direction: column;
 }
 
-.advantage {
+.circleInfo {
     display: flex;
     align-items: center;
     padding: 30px 0;
     position: relative;
 }
 
-.advantage p {
+.circleInfo p {
     font-size: 25px;
     margin-left: 50px;
 }
 
-.advantage img {
+.circleInfo img {
     border-radius: 50%;
     padding: 5px;
     border: 3px solid black;
@@ -101,11 +101,11 @@ section {
     position: relative;
 }
 
-.rightAdvantage {
+.rightCircle {
     margin-left: 110px;
 }
 
-.leftAdvantage:before {
+.leftCircle:before {
     content: "";
     position: absolute;
     width: 110px;
@@ -116,7 +116,7 @@ section {
     left: 55px;
 }
 
-.rightAdvantagesContent:before {
+.rightCircleContent:before {
     content: "";
     position: absolute;
     width: 110px;
@@ -140,7 +140,7 @@ section {
         width: 1140px;
     }
 
-    .advantagesMain {
+    .circleMain {
         width: 1140px;
     }
 
@@ -149,7 +149,7 @@ section {
         max-width: 300px;
     }
 
-    .rightAdvantage {
+    .rightCircle {
         width: calc(1140px - 110px);
     }
 }
@@ -159,7 +159,7 @@ section {
         width: 960px;
     }
 
-    .advantagesMain {
+    .circleMain {
         width: 960px;
     }
 
@@ -180,7 +180,7 @@ section {
         top: 45px;
     }
 
-    .rightAdvantage {
+    .rightCircle {
         width: calc(960px - 110px);
     }
 }
@@ -190,7 +190,7 @@ section {
         width: 720px;
     }
 
-    .advantagesMain {
+    .circleMain {
         width: 720px;
     }
 
@@ -198,15 +198,15 @@ section {
         max-width: 200px;
     }
 
-    .rightAdvantage {
+    .rightCircle {
         width: calc(720px - 110px);
     }
 
-    .leftAdvantage:before {
+    .leftCircle:before {
         width: 150px;
     }
 
-    .rightAdvantagesContent:before {
+    .rightCircleContent:before {
         width: 150px;
     }
 }
@@ -216,7 +216,7 @@ section {
         width: 100%;
     }
 
-    .advantagesMain {
+    .circleMain {
         width: 100%;
     }
 
@@ -241,25 +241,23 @@ section {
         content: none;
     }
 
-    .advantage {
+    .circleInfo {
         margin: 0 10px;
     }
 
-    .rightAdvantage {
+    .rightCircle {
         left: 0;
     }
 
-    .leftAdvantage:before {
-        transform: rotate(90deg);
-        left: -15px;
+    .leftCircle:before {
+        content: none;
     }
 
-    .rightAdvantagesContent:before {
-        transform: rotate(90deg);
-        left: -15px;
+    .rightCircleContent:before {
+        content: none;
     }
 
-    .rightAdvantage {
+    .rightCircle {
         width: unset;
     }
 }
@@ -269,19 +267,19 @@ section {
         overflow-wrap: anywhere;
     }
 
-    .leftAdvantage:before {
+    .leftCircle:before {
         content: none;
     }
 
-    .rightAdvantagesContent:before {
+    .rightCircleContent:before {
         content: none;
     }
 
-    .advantage {
+    .circleInfo {
         flex-direction: column;
     }
 
-    .advantage p {
+    .circleInfo p {
         margin: 10px 0;
         text-align: center;
     }

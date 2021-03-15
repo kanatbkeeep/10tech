@@ -189,14 +189,6 @@ th:first-child, td:first-child {
         width: unset;
         text-align: center;
     }
-
-    .leftAdvantage:before {
-        content: none;
-    }
-
-    .rightAdvantagesContent:before {
-        content: none;
-    }
 }
 
 @media (max-device-width: 430px) {
