@@ -102,7 +102,7 @@ section {
 }
 
 .rightAdvantage {
-    left: 110px;
+    margin-left: 110px;
 }
 
 .leftAdvantage:before {
