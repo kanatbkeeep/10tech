@@ -957,6 +957,10 @@ footer {
         height: 200px;
     }
 
+    .slider__item_title {
+        font-size: 20px;
+    }
+
     main {
         top: 260px;
     }
