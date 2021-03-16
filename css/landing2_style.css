@@ -217,7 +217,8 @@ section {
     }
 
     .circleMain {
-        width: 100%;
+        width: calc(100% - 20px);
+        margin: 0 10px;
     }
 
     .statistic {
@@ -242,7 +243,7 @@ section {
     }
 
     .circleInfo {
-        margin: 0 10px;
+        margin: 0;
     }
 
     .rightCircle {

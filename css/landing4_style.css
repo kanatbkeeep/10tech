@@ -78,3 +78,9 @@
         margin-left: 30px;
     }
 }
+
+@media (max-device-width: 430px) {
+    .circleInfo p {
+        margin-left: 0;
+    }
+}

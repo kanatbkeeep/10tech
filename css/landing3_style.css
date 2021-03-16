@@ -9,7 +9,7 @@ section {
     width: 1320px;
     justify-content: space-between;
     align-items: center;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 .whatIsQuestion h1 {
@@ -189,8 +189,4 @@ th:first-child, td:first-child {
         width: unset;
         text-align: center;
     }
-}
-
-@media (max-device-width: 430px) {
-
 }
