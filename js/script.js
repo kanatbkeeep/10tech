@@ -49,6 +49,11 @@ $('.js-button-campaign').click(function () {
     $('main').css('filter', 'blur(5px)');
     $('footer').css('filter', 'blur(5px)');
     $('.js-overlay-campaign').fadeIn();
+    if (document.body.offsetWidth <= 890) {
+        $('#navbar').css({
+            'top': '-550px',
+        });
+    }
 });
 
 // закрыть на крестик

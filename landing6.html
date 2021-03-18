@@ -105,7 +105,7 @@
 
     <section class="gray">
         <h1 class="MainText">Видеоролик</h1>
-        <iframe src="https://www.youtube.com/embed/_bDmGeKP9n0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+        <iframe data-aos="fade-zoom-in" src="https://www.youtube.com/embed/_bDmGeKP9n0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
     </section>
 
     <section class="white">
@@ -157,7 +157,7 @@
 
     <section class="white">
         <h1 class="MainText">Положительные отзывы</h1>
-        <iframe src="https://www.youtube.com/embed/aYFg9qqKBlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></iframe>
+        <iframe data-aos="fade-zoom-in" src="https://www.youtube.com/embed/aYFg9qqKBlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe></iframe>
     </section>
 
     <section class="gray">
@@ -165,22 +165,30 @@
         <div class="videoList">
             <iframe class="video" src="https://www.youtube.com/embed/fhg3DqrU5HA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="list">
-                <div class="textImg">
+                <div class="textImg" data-aos="fade-right"
+                     data-aos-offset="-15"
+                     data-aos-easing="ease-in-sine">
                     <img src="https://img.icons8.com/ios/50/000000/statistics.png"/>
                     <p>Видеоаналитика вместо бортовых датчиков</p>
                 </div>
 
-                <div class="textImg">
+                <div class="textImg" data-aos="fade-right"
+                     data-aos-offset="-5"
+                     data-aos-easing="ease-in-sine">
                     <img src="https://img.icons8.com/ios/50/000000/cloud.png"/>
                     <p>Облачные технологии обработки сырых данных</p>
                 </div>
 
-                <div class="textImg">
+                <div class="textImg" data-aos="fade-right"
+                     data-aos-offset="-5"
+                     data-aos-easing="ease-in-sine">
                     <img src="https://img.icons8.com/ios/50/000000/online-support.png">
                     <p>Диспетчеризация в AR/VR</p>
                 </div>
 
-                <div class="textImg">
+                <div class="textImg" data-aos="fade-right"
+                     data-aos-offset="-5"
+                     data-aos-easing="ease-in-sine">
                     <img src="https://img.icons8.com/ios/50/000000/financial-analytics.png"/>
                     <p>Получение аналитики с первых дней внедрения</p>
                 </div>
@@ -197,6 +205,10 @@
 
     <section class="gray">
         <h1 class="MainText">Опыт внедрения</h1>
+        <div class="experience">
+            <p>2017-2018 года бизнес-тренинги для группы компаний ERG</p>
+            <p>2019-2020 года продажи продукта на Microsoft Store (пользователи из 21 одной страны мира, включая США, Канаду, Австралию, Японию, страны Европы и др.)</p>
+        </div>
     </section>
 </main>
 <!-------------------------------main_end--------------------------------->
@@ -224,14 +236,27 @@
     <div class="footerSection">
         <p class="MainTextFooter">Соц-сети</p>
         <div class="footerList">
-            <a href="#" class="footerLink"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/> Instagram</a>
-            <a href="#" class="footerLink"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png"/> Facebook</a>
-            <a href="#" class="footerLink"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter-squared.png"/> Twitter</a>
-            <a href="#" class="footerLink"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-squared.png"/> Youtube</a>
+            <a href="https://www.facebook.com/forumvr10tech" class="footerLink"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook.png"/> Facebook</a>
+            <a href="https://www.linkedin.com/company/forumvr10tech" class="footerLink"> <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png"/> Linkedin</a>
+            <a href="https://instagram.com/forumvr" class="footerLink"> <img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"/> Instagram</a>
+            <a href="https://t.me/forumvr10tech" class="footerLink"> <img src="https://img.icons8.com/ios-filled/50/ffffff/telegram-app.png"/> Telegram</a>
         </div>
     </div>
 </footer>
+
 <!------------------------------footer_end-------------------------->
+
+<div class="overlay js-overlay-campaign">
+    <div class="popup js-popup-campaign">
+        <h2>Напишите нам</h2>
+        <form>
+            <input type="text" placeholder="Напише ваше имя">
+            <input type="text" placeholder="e-mail">
+            <textarea rows="10" cols="45" placeholder="Текст..."></textarea>
+        </form>
+        <div class="close-popup js-close-campaign"></div>
+    </div>
+</div>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/jquery-3.5.1.js"></script>

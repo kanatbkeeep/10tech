@@ -74,6 +74,22 @@ iframe {
     align-items: center;
 }
 
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience p {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.experience p:first-child {
+    margin: 0 0 20px 0;
+}
+
 @media (max-device-width: 1400px) {
     .solutionPart {
         width: 1140px;
