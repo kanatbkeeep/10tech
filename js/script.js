@@ -1,7 +1,7 @@
 $('#threeLines').click(function () {
     if (document.getElementById('navbar').style.top === "50px") {
         $('#navbar').css({
-            'top': '-550px',
+            'top': '-580px',
         });
 
         $('#header').css({
@@ -51,7 +51,7 @@ $('.js-button-campaign').click(function () {
     $('.js-overlay-campaign').fadeIn();
     if (document.body.offsetWidth <= 890) {
         $('#navbar').css({
-            'top': '-550px',
+            'top': '-580px',
         });
     }
 });

@@ -82,6 +82,17 @@ nav {
     cursor: pointer;
 }
 
+.downloadDropped {
+    color: black;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    margin: 10px;
+    font-weight: bold;
+    display: none;
+}
+
 .writeToUs:hover {
     transform: scale(1.05);
 }
@@ -338,6 +349,22 @@ nav {
     transform: translate(0, -50%);
 }
 
+.download {
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.download img {
+    margin-right: 10px;
+}
 
 /*--------------------------slider_end--------------------------------*/
 
@@ -1033,6 +1060,14 @@ footer {
 
     .MainTextFooter {
         margin-top: 40px;
+    }
+
+    .download {
+        display: none;
+    }
+
+    .downloadDropped {
+        display: unset;
     }
 }
 
