@@ -23,11 +23,11 @@ header {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 0 calc((100% - 1140px) / 2);
-    z-index: 10;
     transition: all 0.3s;
     height: 60px;
     display: flex;
     align-items: center;
+    z-index: 100;
 }
 
 nav {
@@ -787,7 +787,6 @@ footer {
     border-radius: 15px;
     border-bottom-right-radius: 0;
     z-index: 999;
-    display: flex;
     flex-direction: column;
     display: none;
 }
@@ -1171,5 +1170,15 @@ footer {
         width: calc(100% - 20px);
         top: 260px;
         flex-direction: column;
+    }
+
+    .chatBox {
+        position: fixed;
+        width: calc(100% - 90px);
+        height: 400px;
+    }
+
+    .dialogArea {
+        width: 100%;
     }
 }
