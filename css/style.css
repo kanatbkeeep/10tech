@@ -23,7 +23,7 @@ header {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 0 calc((100% - 1140px) / 2);
-    z-index: 999;
+    z-index: 100;
     transition: all 0.3s;
     height: 60px;
     display: flex;
@@ -79,6 +79,7 @@ nav {
     transition: all 0.2s;
     margin: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .writeToUs:hover {
@@ -346,6 +347,7 @@ main {
     position: relative;
     top: 660px;
     width: 100%;
+    filter: none;
 }
 
 .algorithms {
@@ -622,6 +624,7 @@ footer {
     width: calc(100% - 300px);
     top: 660px;
     display: flex;
+    filter: none;
 }
 
 .footerSection {
@@ -658,6 +661,81 @@ footer {
 .footerLink img {
     width: 20px;
     margin-right: 5px;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+}
+
+.popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #191a1d;
+    color: #fff;
+    z-index: 999;
+    border-radius: 20px;
+}
+
+.popup input{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: calc(100% - 40px);
+}
+
+.popup textarea{
+    margin: 10px 0;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.close-popup:before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+}
+
+.close-popup:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
 }
 
 /*-----------------------------footer_end-------------------------------*/

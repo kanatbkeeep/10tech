@@ -27,7 +27,7 @@
         </div>
 
         <div class="navbar" id="navbar">
-            <a href="#" class="writeToUs">Напишите нам</a>
+            <div class="writeToUs button js-button-campaign"><span>Напишите нам</span></div>
             <div class="dropped">
                 <a href="#" class="navLink" id="dropped1">Проекты
                     <div class="triangle"></div>
@@ -202,6 +202,17 @@
     </div>
 </footer>
 <!------------------------------footer_end-------------------------->
+<div class="overlay js-overlay-campaign">
+    <div class="popup js-popup-campaign">
+        <h2>Напишите нам</h2>
+        <form>
+            <input type="text" placeholder="Напише ваше имя">
+            <input type="text" placeholder="e-mail">
+            <textarea rows="10" cols="45" placeholder="Текст..."></textarea>
+        </form>
+        <div class="close-popup js-close-campaign"></div>
+    </div>
+</div>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/jquery-3.5.1.js"></script>

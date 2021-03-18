@@ -42,7 +42,33 @@ $('#dropped2').click(function () {
     }
 });
 
+// Модальное окно
 
+// открыть по кнопке
+$('.js-button-campaign').click(function () {
+    $('main').css('filter', 'blur(5px)');
+    $('footer').css('filter', 'blur(5px)');
+    $('.js-overlay-campaign').fadeIn();
+});
+
+// закрыть на крестик
+$('.js-close-campaign').click(function () {
+    $('.js-overlay-campaign').fadeOut();
+    $('.writeToUs').fadeIn();
+    $('main').css('filter', 'none');
+    $('footer').css('filter', 'none');
+});
+
+// закрыть по клику вне окна
+$(document).mouseup(function (e) {
+    var popup = $('.js-popup-campaign');
+    if (e.target != popup[0] && popup.has(e.target).length === 0) {
+        $('.js-overlay-campaign').fadeOut();
+        $('.writeToUs').fadeIn();
+        $('main').css('filter', 'none');
+        $('footer').css('filter', 'none');
+    }
+});
 
 // ----------------------------------slider-start------------------------------------
 
@@ -337,9 +363,8 @@ function init() {
 
 controls.update();
 
-function animate()
-{
-    requestAnimationFrame ( animate );
+function animate() {
+    requestAnimationFrame(animate);
     controls.update();
-    renderer.render (scene, camera);
+    renderer.render(scene, camera);
 }

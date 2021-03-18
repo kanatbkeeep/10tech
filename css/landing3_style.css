@@ -171,6 +171,10 @@ th:first-child, td:first-child {
         padding: 0 10px;
     }
 
+    .whatIsQuestion h1 {
+        margin-bottom: 30px;
+    }
+
     .howIsItWork {
         width: 100%;
     }
