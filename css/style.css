@@ -766,6 +766,80 @@ footer {
     left: -4px;
 }
 
+.chat {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.chatBox {
+    position: fixed;
+    width: 300px;
+    height: 400px;
+    padding: 35px;
+    background-color: #1f1f1f;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.dialogArea {
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px 0;
+    width: 300px;
+    height: 350px;
+}
+
+.chatBox input {
+    padding: 10px 20px;
+    margin: 10px 0 0 0;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    width: calc(100% - 40px);
+}
+
+.close-chat {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.close-chat:before {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    left: -4px;
+    transform: rotate(-45deg);
+}
+
+.close-chat:after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    height: 1px;
+    width: 31px;
+    top: 11px;
+    transform: rotate(45deg);
+    left: -4px;
+}
+
 /*-----------------------------footer_end-------------------------------*/
 
 @media (max-device-width: 1350px) {

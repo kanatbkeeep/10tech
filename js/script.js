@@ -75,6 +75,16 @@ $(document).mouseup(function (e) {
     }
 });
 
+// открыть по кнопке
+$('.chat').click(function () {
+    $('.chatBox').fadeIn();
+});
+
+// закрыть на крестик
+$('.close-chat').click(function () {
+    $('.chatBox').fadeOut();
+});
+
 // ----------------------------------slider-start------------------------------------
 
 
