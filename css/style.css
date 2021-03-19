@@ -774,6 +774,7 @@ footer {
     bottom: 20px;
     right: 20px;
     cursor: pointer;
+    z-index: 100;
 }
 
 .chatBox {
